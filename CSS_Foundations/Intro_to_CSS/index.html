@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h3 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Intro to CSS</h1>
+    <p>Some text in paragraph</p>
+    <div>Some text in div</div>
+    <h2>Second header</h2>
+    <p class="second">Text in paragraph of class "second"</p>
+    <div id="ID">Div with ID</div>
+    <button class="read">Test Button</button>
+    <button class="unread">Second Button</button>
+    <h2>Grouped classes</h2>
+    <p class="GroupA">Group A</p>
+    <p class="GroupB">Group B</p>
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">This is where a preview for a post might go.</p>
+    </div>
+
+    <div class="ancestor">
+        -- A --
+        <div class="contents">
+            -- B --
+            <div class="contents">-- C --</div>
+        </div>
+    </div>
+
+    <div class="contents">-- D --</div>
+
+    <h1>Starting properties</h1>
+    <p id="hex">Hex code #1100ff</p>
+    <p id="rgb">RGB code 100, 0, 127</p>
+    <p id="hsl">HSL code 15, 82%, 56%</p>
+
+    <h3>CSS in header</h3>
+
+    <p style="color: blue;text-align: center;">Inline styled</p>
+</body>
+</html>

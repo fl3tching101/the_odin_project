@@ -1,0 +1,74 @@
+/* Universal selector */
+* {
+    color: purple;
+}
+
+/* Type selector */
+div {
+    color: red;
+}
+
+/* Class selector */
+.second {
+    color: aqua;
+}
+
+/* ID selector */
+#ID {
+    color: coral;
+}
+
+.read {
+    color: white;
+    background-color: black;
+}
+
+.unread {
+    color: white;
+    background-color: darkblue;
+}
+
+/* Grouping */
+.GroupA,
+.GroupB {
+    color: white;
+    background-color: black;
+}
+
+.GroupA {
+    text-align: center;
+}
+
+.GroupB {
+    text-align: right;
+}
+
+/* Chaining */
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+    color: orange;
+}
+
+/* Descendant combinator */
+.ancestor .contents {
+    color:dodgerblue;
+}
+
+/* Color and background color */
+#hex {
+    color: #1100ff;
+    background-color: antiquewhite;
+}
+
+#rgb {
+    color: rgb(100, 0, 127);
+    background-color: aqua;
+}
+
+#hsl {
+    color: hsl(15, 82%, 56%);
+    background-color: black;
+}
