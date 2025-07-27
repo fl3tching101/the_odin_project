@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+}
+
+.box-one {
+    background-color: red;
+    padding: 20px;
+    border: 30px solid blue;
+    margin: 50px;
+}
+
+.box-two {
+    background-color: orange;
+    padding: 40px;
+    border: 20px solid purple;
+    margin: 30px;
+}
+
+.info {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid cyan;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
