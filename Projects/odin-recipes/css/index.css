@@ -1,0 +1,16 @@
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.recents {
+    background-color: #D0E4F5;
+    padding: 24px;
+    margin: 12px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.recents_list {
+    padding: 32px;
+    margin: 12px;
+}

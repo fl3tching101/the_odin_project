@@ -1,0 +1,17 @@
+.recipe_name {
+    text-align: center;
+}
+
+a {
+    margin: 12px;
+    padding: 24px;
+}
+
+.recipe {
+    background-color: #a2b8cb;
+    padding: 24px;
+    margin: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: left;
+}
